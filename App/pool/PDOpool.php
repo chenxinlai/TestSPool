@@ -17,8 +17,8 @@ class PDOpool extends DBPool {
     }
     protected function newDB()
     {
-        $dsn="mysql:host=47.107.132.11;dbname=test";
-        $pdo=new \PDO($dsn,"root","root");
+        $dsn="mysql:host=Your Servers Ip;dbname=test";
+        $pdo=new \PDO($dsn,"username","password");
         return $pdo;
 
         // TODO: Implement newDB() method.
